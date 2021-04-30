@@ -1,0 +1,209 @@
+/*LearnCSS.css*/
+.home {
+    background-color: white;
+    color : #964B00;
+}
+.topnav{
+    background-color: #964B00;
+}
+.topnav a
+{
+  position: relative;
+float: right;
+text-align:center;
+padding: 14px 16px;
+font-size:17px;
+top:10px;
+color: white;
+}
+
+.intro{
+    font-size: 30px;
+    position: relative;
+    float: right;
+    margin: 20px;
+    padding: 50px;
+    width: 400px;
+    right:180px;
+}
+.intro h2{
+    text-align: center;
+}
+#img1{
+    margin-left: 300px;
+    padding: 50px;
+    position: relative;
+    right:100px;
+}
+.middle{
+    font-size: 30px;
+    padding: 50px;
+    float: left;
+    position: relative;
+    left: 180px;
+    width: 400px;
+    margin: 20px;
+}
+.middle h2{
+    text-align: center;
+}
+#img2{
+    margin-right: 200px;
+    padding: 50px;
+    position: relative;
+    left: 300px;
+}
+.CU{
+    background-color: white;
+    color: #964B00;
+}
+.container {
+    position: relative;
+    width: 50%;
+    text-align: center;
+  }
+.img3{
+    opacity: 1;
+    transition: .5s ease;
+    width: 100%;
+  height: auto;
+  display: block;
+}
+.after{
+    opacity: 0;
+    transition: .5s ease;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.container:hover .img3 {
+    opacity: 0.1;
+
+  }
+  
+  .container:hover .after {
+    opacity: 1;
+  }
+.text{
+    font-size: 20px;
+    font-weight: bold;
+}
+.contactform{
+    position: relative;
+    float: right;
+    bottom: 350px;
+    right: 150px;
+    font-size: 20px;
+    
+}
+textarea{
+    resize: none;
+}
+
+.socials h1{
+    text-align: center;
+    top: 50px;
+    position: relative;
+    font-size: 30px;
+}
+.socials img{
+    width: 200px;
+    height: 190px;
+    position: relative;
+    top:40px;
+}
+.Cssquiz{
+color: #964B00;
+}
+.Cssquiz h1{
+    text-align: center;
+}
+#quiz{
+    margin-right: 150px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.Cssquiz p{
+    color: black;
+    font-weight: bold;
+}
+#submitbtn{
+    color: white;
+    background-color: #964B00;
+    text-align: center;
+    padding: 15px 32px;
+    margin: 4px 2px;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;   
+}
+.start{
+    color: #964B00;
+    text-align: center;
+    position: relative;
+    bottom: 50%;
+    top: 40%;
+    font-size:45px;
+    font-weight: bold;
+    margin: 30px;
+}
+#btn{
+    color: white;
+    background-color: #964B00;
+    text-align: center;
+    padding: 15px 32px;
+    margin: 4px 2px;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+}
+footer{
+    background-color: #964B00;
+    color: white;
+    font-size: 14px;
+    height: 10px;
+    padding: 20px;
+}
+.centered {
+    position: absolute;
+    bottom: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    color: black;
+
+  }
+#feedback1{
+    color: #964B00;
+    background-color: white;
+    font-size: 20px ;
+    margin: 20px;
+}
+#feedback2{
+    font-size: 20px ;
+    margin: 20px;
+}
+#feedback3{
+    color: #964B00;
+    background-color: white;
+    font-size: 20px ;
+    margin: 20px;
+}
+#feedback4{
+    font-size: 20px ;
+    margin: 20px;
+}
+#feedback5{
+    color: #964B00;
+    background-color: white;
+    font-size: 20px ;
+    margin: 20px;
+}
+#score{
+    text-align: center;
+    font-size: 25px;
+    margin: 20px;
+}

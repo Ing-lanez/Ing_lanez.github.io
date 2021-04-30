@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="LearnCSS.css">
+        <meta charset="utf-8">
+        <title>CSS Quiz</title>
+        <script src="js-LearnCSS.js"></script>
+    </head>
+    <body class="Cssquiz">
+        <div class="topnav">
+            <img src="LogoMakr-116M8Q.png" alt="logo" style="width: 200px; height: 90px;">
+            <a href="./hOME_PAGE.html">Home</a>
+            <a href="./Quizintro.html">Take CSS Quiz</a>
+            <a href="./Contact_page.html">Contact Us</a>
+       </div>
+       <h1>CSS Quiz</h1>
+       <div id="quiz">
+           <!--This div element contains all the questions plus their options, some questions contain input types of radio others checkbox. I used radio type for a person to select only one option, then checkbox to select more than one.-->
+    <form>
+        <!--Each question is in it's own div-->
+        <div id="qn1">
+        <p>1. Which of the following is the correct format for the CSS?</p> <br>
+        <input type="radio" id="qn1.1" value="qn1.1" name="question1" >
+        <label for=qn1.1>p{<br>color:red,<br>text-align:center;<br>}</label><br>
+        <input type="radio" id="qn1.2" value="qn1.2" name="question1">
+        <label for="qn1.2">p{<br>color:red;<br>text-align:center;<br>}</label><br>
+        <input type="radio" id="qn1.3" value="qn1.3" name="question1">
+        <label for="qn1.3">p{<br>color-red;<br>text-align-center;<br>}</label><br>
+        <input type="radio" id="qn1.4" value="qn1.4" name="question1">
+        <label for="qn1.4">p{<br>color:red;<br>text-align:center;</label><br>
+            
+       </div>
+       <div id="qn2">
+       <p>2. Which of the following examples is the correct way to use CSS ID selector?</p><br>
+       
+        <input type="radio" id="qn2.1" value="qn2.1" name="question2">
+        <label for=qn2.1>#1sen{<br>text-align:center;<br>color:red;<br>}</label><br>
+        <input type="radio" id="qn2.2" value="qn2.2" name="question2" >
+        <label for="qn2.2">*sen1{<br>text-align:center;<br>color:red;<br>}</label><br>
+        <input type="radio" id="qn2.3" value="qn2.3" name="question2">
+        <label for="qn2.3">#sen1{<br>text-align:center;<br>color:red;<br>}</label><br>
+        
+       </div>
+       <div id="qn3">
+       <p>3. Which of the following can be a possible value for margin properties?</p><br>
+       
+           <input type="checkbox" id="qn3.1">
+           <label for="qn3.1">A. auto</label><br>
+           <input type="checkbox" id="qn3.2">
+           <label for="qn3.2">B. ?</label><br>
+           <input type="checkbox" id="qn3.4">
+           <label for="qn3.4">C. %</label><br>
+           <input type="checkbox" id="qn3.5">
+           <label for="qn3.4">D. implent</label><br>
+           
+           </div>
+           <div id="qn4">
+           <p>4. How do you make each word in a text start with a capital letter?</p>   
+           <input type="radio" id="qn4.1" name="question4" value="qn4.1">
+           <label for="qn4.1">You can't do that with CSS</label><br>
+           <input type="radio" id="qn4.2" name="question4" value="qn4.2">
+           <label for="qn4.2">text-style:capitalize</label><br>
+           <input type="radio" id="qn4.3" name="question4" value="qn4.3">
+           <label for="qn4.3">text-transform:capitalize</label><br>
+           
+           </div>
+           <div id="qn5">
+           <p>5. What is the default value of the position property?</p>
+           <input type="radio" id="qn5.1" value="qn5.1" name="question5">
+           <label for=qn5.1>absolute</label><br>
+           <input type="radio" id="qn5.2" value="qn5.2" name="question5">
+           <label for="qn5.2">static</label><br>
+           <input type="radio" id="qn5.3" value="qn5.3" name="question5">
+           <label for="qn5.3">relative</label><br>
+           <input type="radio" id="qn5.4" value="qn5.4" name="question5">
+           <label for="qn5.4">fixed</label><br>
+           
+           </div>
+           
+           <!--Once the user clicks on this button it calls the function quizfeedback() from the javascript code-->
+           <input type="button" value="Done!" id="submitbtn" onclick="Quizfeedback()">
+           
+       </form>
+    </div>    
+    <!--The following paragraphs are there to hold the feedback plus the score, each question has its own paragraph assigned for feedback and one more for score.-->
+    <p id="feedback1"></p>
+    <p id="feedback2"></p>
+    <p id="feedback3"></p>
+    <p id="feedback4"></p>
+    <p id="feedback5"></p>
+    <p id="score"></p>
+       
+<footer>&copy;Copyright 2021 Learn CSS<a href="./hOME_PAGE.html">Learn CSS</a></footer>
+    </body>
+</html>
